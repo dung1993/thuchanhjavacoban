@@ -8,7 +8,7 @@ public class Integer {
         Scanner scanner = new Scanner(System.in);
         System.out.println("nhập n là số nguyên dương:");
         n = scanner.nextInt();
-        while ( n < 0){
+        while ( n <= 0){
             System.out.println("Nhập lại số nguyên dương bất kỳ");
             n = scanner.nextInt();
         }

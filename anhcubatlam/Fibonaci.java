@@ -8,6 +8,7 @@ public class Fibonaci {
         Scanner scanner = new Scanner(System.in);
         System.out.println("nhập n là số nguyên dương:");
         n = scanner.nextInt();
+        System.out.print("Dãy Fibonaci với" + n + "số là:");
         while ( n < 0){
             System.out.println("Nhập lại số nguyên dương bất kỳ");
             n = scanner.nextInt();
@@ -18,6 +19,6 @@ public class Fibonaci {
             number1 = number2;
             number2 = sum;
         }
-        System.out.print("Dãy Fibonaci với" + n + "số là:");
+
     }
 }
